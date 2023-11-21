@@ -1,52 +1,55 @@
 @font-face {
     font-family: 'NewComicTitle';
-    src: url(/newcomictitle.ttf)
+    src: url(newcomictitle.ttf)
 }
 
 #logo {
-    width: 70vw;
+    width: 25vh;
     padding: 0;
-    margin: -3%;
+    padding-top: 8vw;
+    overflow-x: hidden
+}
+
+.wrapper {
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 body {
-    display: flex;
-    background-color: purple;
-    background-image: url(/spacewallpaper.jpg);
-    background-size: contain;
-    background-position: center;
-    flex-direction: column;
+
+    background-color: black;
+    background-image: url(MosaicWallpaper.png);
+    background-size: cover;
+    background-position: top;
     align-items: center;
-    overflow-x: hidden;
 }
 
-box {
-    margin: 0 20%;
+div {
+    position: relative;
+    display: block;
 }
 
 article {
     background-color: black;
     color: white;
     border: .4em solid yellow;
-    padding: 0 7vw;
-    margin: 2vw;
-    font-size: 3vw;
+    padding: 3 3vw;
+    margin: 2vh;
+    font-size: 3vh;
     text-align: center;
     font-family: 'Times New Roman', 'Comic Sans MS';
     border-radius: 2em;
-    width: 50vw;
+    justify-content: center;
+    overflow-x: hidden;
+    width: 80vw;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: NewComicTitle, 'Comic Sans MS', Courier, monospace;
-    text-align: center;
-    color: yellow;
-    text-shadow: 1vw 1vw black;
+p {
+    font-size: 4vmin;
+    margin: 2vw;
 }
 
 h6 {
@@ -62,12 +65,17 @@ h4 {
 }
 
 h3 {
-    color: purple;
+    color: orangered;
     font-size: 4vw;
 }
 
 h2 {
-    font-size: 5vw;
+    font-size: 7vw;
+    font-family: NewComicTitle, Courier, monospace, 'Comic Sans MS';
+    text-align: center;
+    color: yellow;
+    text-shadow: 1vw 1vw black;
+    margin-bottom: 1vh;
 }
 
 h1 {
@@ -75,9 +83,10 @@ h1 {
 }
 
 iframe {
-    width: 48vw;
-    height: 27vw;
-    margin: 1vw 0vw;
+    justify-content: center;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
 }
 
 ul {
@@ -104,6 +113,8 @@ li {
     height: auto;
     right: 87vw;
     rotate: 30deg;
+
+    overflow-x: hidden;
 }
 
 .imgright {
@@ -112,6 +123,7 @@ li {
     height: auto;
     left: 87vw;
     rotate: -30deg;
+    overflow-x: hidden;
 
 }
 
