@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'NewComicTitle';
+    src: url(/newcomictitle.ttf)
+}
+
+#logo {
+    width: 70vw;
+    padding: 0;
+    margin: -3%;
+}
+
+body {
+    display: flex;
+    background-color: purple;
+    background-image: url(/spacewallpaper.jpg);
+    background-size: contain;
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+box {
+    margin: 0 20%;
+}
+
+article {
+    background-color: black;
+    color: white;
+    border: .4em solid yellow;
+    padding: 0 7vw;
+    margin: 2vw;
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Times New Roman', 'Comic Sans MS';
+    border-radius: 2em;
+    width: 50vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: NewComicTitle, 'Comic Sans MS', Courier, monospace;
+    text-align: center;
+    color: yellow;
+    text-shadow: 1vw 1vw black;
+}
+
+h6 {
+    font-size: 1vw;
+}
+
+h5 {
+    font-size: 2vw;
+}
+
+h4 {
+    font-size: 3vw;
+}
+
+h3 {
+    color: purple;
+    font-size: 4vw;
+}
+
+h2 {
+    font-size: 5vw;
+}
+
+h1 {
+    font-size: 6vw;
+}
+
+iframe {
+    width: 48vw;
+    height: 27vw;
+    margin: 1vw 0vw;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    font-size: 3vw;
+}
+
+.bullet {
+    width: auto;
+    height: .8em;
+    padding-top: -20%;
+    top: 10%;
+}
+
+.imgleft {
+    position: absolute;
+    width: 25vw;
+    height: auto;
+    right: 87vw;
+    rotate: 30deg;
+}
+
+.imgright {
+    position: absolute;
+    width: 25vw;
+    height: auto;
+    left: 87vw;
+    rotate: -30deg;
+
+}
+
+#Okabe {
+    top: 10vw;
+    width: 30vw;
+    rotate: 18deg;
+    right: 90vw;
+}
+
+#Kurisu {
+    top: 45vw;
+    width: 32vw;
+    rotate: -50deg;
+    left: 80vw;
+}
+
+#Mayuri {
+    top: 80vw;
+    width: 30vw;
+    rotate: 35deg;
+    right: 85vw;
+}
+
+#Moeka {
+    top: 115vw;
+    width: 32vw;
+    rotate: -20deg;
+    left: 87vw;
+}
+
+#Lukako {
+    top: 150vw;
+    width: 25vw;
+    rotate: 32deg;
+    right: 86.5vw;
+}
+
+#Faris {
+    top: 185vw;
+    width: 15vw;
+    rotate: -20deg;
+    left: 87vw;
+}
+
+#Daru {
+    top: 215vw;
+    width: 28vw;
+    rotate: 65deg;
+    right: 80vw;   
+}
+
+#Suzuha {
+    top: 250vw;
+    width: 25vw;
+    rotate: -15deg;
+    left: 86vw;
+}
+
+#FB {
+    top: 285vw;
+    width: 25vw;
+    rotate: 32deg;
+    right: 86.5vw;
+}
+
+#FC {
+    top: 320vw;
+    width: 24vw;
+    rotate: -20deg;
+    left: 85vw;
+}
+
+#LD {
+    top: 355vw;
+    width: 28vw;
+    rotate: 15deg;
+    right: 84vw;   
+}
+
+#FD {
+    top: 390vw;
+    width: 28vw;
+    rotate: -43deg;
+    left: 82vw;
+}
+
+#Nae{
+top: 425vw;
+width: 23vw;
+rotate: 70deg;
+right: 82vw;  
+}
+
+#Flame506 {
+    top: 460vw;
+    width: 22vw;
+    rotate: -34deg;
+    left: 88vw;
+}
