@@ -97,14 +97,14 @@ h1 {
 
 /*iframe shit                                                 ashgfsdhhdfhgdfshdgsfhsdfg*/
 #stream {
+    width: 75vw;
+    height: 42.1875vw;
 }
-
 #streamBox {
+    height: 42.1875vw;
     position: relative;
 }
-
 iframe {
-    width: 75vw;
     height: 42.1875vw;
     display: block;
     top: 0;
