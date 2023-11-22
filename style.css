@@ -90,7 +90,6 @@ h1 {
 
 #streamBox {
     padding-bottom: 56%; /* Change this till it fits the dimensions of your video */
-    position: relative;
 }
 
 iframe {
