@@ -90,13 +90,12 @@ h1 {
 }
 
 #streamBox {
- /* Change this till it fits the dimensions of your video */
+    position: relative;
 }
 
 iframe {
     width: 100%;
     height: 100%;
-    position: relative;
     display: block;
 }
 
