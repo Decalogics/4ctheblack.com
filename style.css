@@ -16,7 +16,7 @@ html {
 }
 
 .wrapper {
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@ head {
     padding: 0px;
 }
 body {
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: black;
     background-image: url(/spacewallpaper.jpg);
     background-size: cover;
