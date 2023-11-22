@@ -97,7 +97,7 @@ iframe {
     width: 100%;
     height: 100%;
     display: block;
-    float: top;
+    top: 0;
 }
 
 ul {
