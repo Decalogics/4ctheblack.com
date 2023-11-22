@@ -13,6 +13,7 @@
 
 .wrapper {
     overflow-x: hidden;
+    overflow-y: hidden;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -21,6 +22,7 @@
 
 body {
     overflow-x: hidden;
+    overflow-y: hidden;
     background-color: black;
     background-image: url(/spacewallpaper.jpg);
     background-size: cover;
