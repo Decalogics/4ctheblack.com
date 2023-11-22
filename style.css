@@ -87,7 +87,8 @@ iframe {
     justify-content: center;
     overflow-x: hidden;
     width: 100%;
-    height: 500vw;
+    height: 100%;
+    display: flex;
 }
 
 ul {
