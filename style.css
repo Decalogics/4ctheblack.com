@@ -46,7 +46,7 @@ div {
 article {
     background-color: black;
     color: white;
-    border: 2vw solid yellow;
+    border: 1vw solid yellow;
     padding: 3vh 3vw;
     margin: 2vh;
     font-size: 3vh;
@@ -61,7 +61,7 @@ article {
 
 /*text */
 p {
-    font-size: 8vmin;
+    font-size: 3vw;
     margin: 2vw;
 }
 
