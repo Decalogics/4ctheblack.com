@@ -87,6 +87,8 @@ iframe {
     justify-content: center;
     overflow-x: hidden;
     position: relative;
+    display:block;
+    width:100%;
 }
 
 #stream {
@@ -101,8 +103,7 @@ iframe {
     height: 100%; 
     padding: 0; 
     overflow: hidden; 
-    position: relative; 
-    border: 1px solid black;
+    position: relative;
 }
 
 ul {
