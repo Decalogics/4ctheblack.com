@@ -104,6 +104,7 @@ h1 {
 iframe {
     height: 42vw;
     display: block;
+    margin: 0;
 }
 
 /*list crap*/
