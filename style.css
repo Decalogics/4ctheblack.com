@@ -101,12 +101,12 @@ h1 {
 
 #streamBox {
     position: relative;
-    width: 100%;
+    width: 75vw;
     height: auto;
 }
 
 iframe {
-    width: 100%;
+    width: 73vw;
     height: auto;
     display: block;
     top: 0;
