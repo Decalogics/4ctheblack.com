@@ -89,6 +89,13 @@ iframe {
     position: relative;
 }
 
+#stream {
+    height: 100%; 
+    padding: 0; 
+    overflow: hidden; 
+    position: relative; 
+}
+
 #streamBox {
     width: 100%; 
     height: 100%; 
