@@ -101,7 +101,6 @@ h1 {
     height: 42vw;
 }
 #streamBox {
-    position: relative;
 }
 iframe {
     display: block;
