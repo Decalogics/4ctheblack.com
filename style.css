@@ -99,13 +99,14 @@ h1 {
 #stream {
     width: 75vw;
     height: 42vw;
+    float: left;
 }
 #streamBox {
     position: relative;
 }
 iframe {
+    height: 42vw;
     display: block;
-    top: 0;
 }
 
 /*list crap*/
