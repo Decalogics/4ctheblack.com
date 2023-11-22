@@ -46,6 +46,7 @@ article {
     justify-content: center;
     overflow-x: hidden;
     width: 75vw;
+    position: relative;
 }
 
 p {
