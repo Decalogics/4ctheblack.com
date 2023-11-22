@@ -23,6 +23,10 @@ html {
     align-items: center;
 }
 
+head { 
+    margin: 0px;
+    padding: 0px;
+}
 body {
     overflow: hidden;
     background-color: black;
