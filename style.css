@@ -94,14 +94,13 @@ h1 {
     font-size: 6vw;
 }
 
-
 #stream {
-
+    width: 75vw;
+    height: auto;
 }
 
 #streamBox {
     position: relative;
-    width: 75vw;
     height: auto;
 }
 
