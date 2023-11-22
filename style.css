@@ -105,11 +105,8 @@ h1 {
     position: relative;
 }
 iframe {
-    height: 42.1875vw;
     display: block;
     top: 0;
-    float: top;
-    flex-direction: column;
 }
 
 /*list crap*/
