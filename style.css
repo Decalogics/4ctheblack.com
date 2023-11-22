@@ -86,6 +86,7 @@ h1 {
 iframe {
     justify-content: center;
     overflow-x: hidden;
+    height: 50vw
 }
 
 ul {
