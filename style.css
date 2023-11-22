@@ -47,7 +47,7 @@ article {
     background-color: black;
     color: white;
     border: .4em solid yellow;
-    padding: 3 3vw;
+    padding: 3vh 3vw;
     margin: 2vh;
     font-size: 3vh;
     text-align: center;
@@ -100,8 +100,6 @@ h1 {
     float: left;
 }
 #streamBox {
-    position: relative;
-    height: 42vw;
 }
 iframe {
     height: 42vw;
