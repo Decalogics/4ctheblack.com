@@ -32,7 +32,7 @@ body {
     overflow: hidden;
     background-color: black;
     background-image: url(/spacewallpaper.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: top;
     align-items: center;
     margin: 0;
@@ -88,19 +88,18 @@ h2 {
     text-align: center;
     color: yellow;
     text-shadow: 1vw 1vw black;
-    margin-bottom: 1vh;
+    margin: .5vh, 0vh;
 }
 
 h1 {
     font-size: 6vw;
 }
 
-/*iframe shit                                                 ashgfsdhhdfhgdfshdgsfhsdfg*/
+/*iframe*/
 #stream {
     float: left;
 }
 #streamBox {
-    margin: 0%;
     padding: 0%;
 }
 iframe {
