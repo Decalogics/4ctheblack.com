@@ -27,6 +27,7 @@ html {
 head { 
     margin: 0px;
     padding: 0px;
+    width: 100%;
 }
 body {
     overflow: hidden;
@@ -41,14 +42,15 @@ body {
 div {
     position: relative;
     display: block;
+    padding: 3vh 0;
+    margin: 2vh;
+    overflow-y: hidden;
 }
 
 article {
     background-color: black;
     color: white;
     border: 1vw solid yellow;
-    padding: 3vh 0vw;
-    margin: 2vh;
     font-size: 3vh;
     text-align: center;
     font-family: 'Times New Roman', 'Comic Sans MS';
@@ -56,7 +58,13 @@ article {
     justify-content: center;
     overflow-x: hidden;
     width: 75vw;
+    height: 100%;
+    margin: 2vh;
+    padding: 4vw;
     position: relative;
+    opacity: 100;
+    animation-timing-function: linear;
+    animation: codecAssOpening 5s;
 }
 
 /*text */
@@ -129,6 +137,58 @@ li {
     height: .8em;
     padding-top: -20%;
     top: 10%;
+}
+#GameArticle {
+    float: left;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.GameContainer {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 0;
+}
+
+.GameLi {
+    padding: 0;
+    float: left;
+	margin: 2.34vw;
+    overflow-x: hidden
+}
+
+.GameLi>h2 {
+    transition: ease-in-out 1.5s;
+}
+
+.GameImage {
+    padding-left: auto;
+    height: auto;
+    width: 100%;
+    vertical-align: middle;
+    transition: ease-in-out 1.5s;
+}
+
+.textInImage{
+    font-size: 2vw;
+    position: absolute;
+    bottom: -2vw;
+    text-align: center;
+    width: 100%;
+    background: black;
+    opacity: 0%;
+    transition: opacity .3s ease-in-out;
+}
+
+.GameLi:hover .textInImage {
+    opacity: 100%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.mainul{
+    display: flex;
+    margin: 0;
+    padding: 0%;
+    list-style: none;
 }
 /*characters*/
 .imgleft {
